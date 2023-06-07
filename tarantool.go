@@ -3,6 +3,8 @@ package tarantool
 import (
 	"github.com/tarantool/go-tarantool"
 	"github.com/tarantool/go-tarantool/multi"
+	_ "github.com/tarantool/go-tarantool/uuid"
+	_ "github.com/tarantool/go-tarantool/decimal"
 	"go.k6.io/k6/js/modules"
 )
 
